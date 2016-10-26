@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sfs.com.ezappssolutions.MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="328dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/splash_logo"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text=" EZ FILING SOLUTIONS"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"
+        android:layout_marginBottom="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/BleuDeFrance"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:id="@+id/btn_entity"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="File EIN"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_weight="0.8"
+            android:background="@color/BleuDeFrance"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.2"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_next"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/BleuDeFrance"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:id="@+id/btn_login"
+            android:layout_weight="0.8"
+            android:background="@color/BleuDeFrance"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.2"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_next"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

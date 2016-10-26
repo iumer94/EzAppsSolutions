@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sfs.com.ezappssolutions.CreateAccount"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Individual"
+            android:padding="10dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:layout_weight="0.8"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer Name"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/platinum"
+                android:inputType="textCapWords"
+                />
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Customer Phone Number"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="@color/platinum"
+                android:inputType="number"
+                android:maxLength="14"/>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Customer Email"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="@color/platinum"
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:id="@+id/et_c_email"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Customer Confirm Email"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="@color/platinum"
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:background="@color/platinum"
+                android:inputType="textPassword"
+                android:maxLength="15"/>
+            <EditText
+                android:id="@+id/et_c_password"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Confirm Password"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="@color/platinum"
+                android:inputType="textPassword"
+                android:maxLength="15"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Please review that you have submitted the correct\nemail address where you world like to receive your EIN.\nUpon complition of your application, Govt Assist will\nemail the EIN Number to this email address."
+                android:textColor="@color/silver"
+                style="text-decoration:underline"
+                android:layout_gravity="center|bottom"/>
+            <Button
+                android:id="@+id/next"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textSize="16sp"
+                android:layout_gravity="bottom|center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

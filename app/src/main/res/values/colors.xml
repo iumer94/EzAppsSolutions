@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="default_selector">#FF4081</color>
+    <color name="login_default">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="ash_grey">#B2BEB5</color>
+    <color name="greypanel">#F5F5F5</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="BleuDeFrance">#318CE7</color>
+
+    <color name="editTextBackcolor">#eeeeee</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reset"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sfs.com.ezappssolutions.reset"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Password"
+            android:layout_marginRight="50dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered Email Address:"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Email Address"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/platinum"
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/tv_call"
+        android:layout_marginTop="272dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you do not receive an email\nPlease Call 1-818-555-2022"
+        android:textColor="@color/colorPrimary"
+        style="text-decoration:underline"
+        android:layout_gravity="center|bottom"/>
+    <Button
+        android:id="@+id/send_mail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:textSize="16sp"
+        android:layout_gravity="bottom|center"/>
+
+</LinearLayout>

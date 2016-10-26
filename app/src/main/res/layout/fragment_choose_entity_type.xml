@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/choose_entity_type"
+    tools:context="sfs.com.ezappssolutions.Fragments.ChooseEntityType">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="Limited Liability Company "
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/llc"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="S-Corporation "
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/s_corporation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="C-Corporation "
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/corporation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="Sole Propreitor/ Individual"
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/sole_propreitor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="Partnership "
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/partnership"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/platinum"
+                android:text="Non Profit Organization"
+                android:textSize="26dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/non_profit"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

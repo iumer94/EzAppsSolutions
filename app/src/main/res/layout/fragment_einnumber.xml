@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sfs.com.ezappssolutions.Fragments.EINNumberFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/ein_num_text"
+        android:textSize="21dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="12-1234567"
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Download PDF"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

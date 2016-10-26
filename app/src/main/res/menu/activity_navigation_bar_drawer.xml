@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_Profile"
+            android:icon="@drawable/ic_view_profile_img"
+            android:title="View Profile"
+            />
+        <item
+            android:id="@+id/nav_EIN_number"
+            android:icon="@drawable/ic_ein_number_img"
+            android:title="EIN Number" />
+        <item
+            android:id="@+id/nav_bussiness_app"
+            android:icon="@drawable/ic_business_app_img"
+            android:title="Business App" />
+        <item
+            android:id="@+id/nav_other_services"
+            android:icon="@drawable/ic_other_services"
+            android:title="Other Services" />
+    </group>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_other_services"
+        android:title="Logout"
+        />
+    <item android:title="communication">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_menu_send"
+                android:title="message"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_img"
+                android:title="share"/>
+            <item
+                android:id="@+id/nav_frequent"
+                android:icon="@drawable/ic_start_img"
+                android:title="share"/>
+        </menu>
+    </item>
+
+</menu>
